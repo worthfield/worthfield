@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+:root{
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color: #ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+.slogan{
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: var(--roboto);
+    text-align: center;
+}
+
+.image-p {
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center center;
+}
+.product-card{
+    height: auto;
+}
+@media only screen and (min-width:600px){
+    .image-p{
+        height: 380px;
+
+    }
+    .product-card{
+        height: 400px;
+    
+    }
+}
+
+@media only screen and (min-width:600px){
+.banner{
+    height: 400px;
+}
+}
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    
+}

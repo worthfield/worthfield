@@ -1,0 +1,67 @@
+.card-title{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-- single-page --*/
+
+.product-view {
+    padding: 15px;
+    border: 1px solid #eee;
+}
+.product-view h2 {
+    font-size: 28px;
+    color: #000;
+    line-height: 1.3;
+}
+.product-view p {
+    font-size: 13px;
+    color: #929292;
+	margin:15px 0;
+	word-spacing:3px;
+}
+.product-view p i {
+    margin-right: 4px;
+    color: #f3c500;
+    font-size: 14px;
+}
+.product-view p a {
+    margin-right: 4px;
+    color: #01a185;
+    font-size: 14px;
+}
+.product-desc {
+    margin-top: 45px;
+}
+.product-details h4 {
+	color:#000;
+	font-size:18px;
+	margin:15px 0;
+}
+.product-details h4 a {
+	color:#f3c500;
+	font-size:15.5px;
+	text-decoration:none;
+}
+.product-details p {
+    line-height: 1.8;
+    color: #848484;
+    font-size: 13px;
+    margin: 8px 0;
+}
+.product-details p strong {
+    font-weight: 400;
+    color: #000;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 17px;
+}
+
